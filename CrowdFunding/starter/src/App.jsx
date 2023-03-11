@@ -4,6 +4,7 @@ import Home from "./views/Home";
 const App = () => {
   return (
     <div className="min-h-screen relative">
+      <div>Hi</div>
       <Header />
       <Routes>
         <Route path="/" element={<Home />}></Route>
